@@ -1,0 +1,30 @@
+body{
+    margin:0%;
+    font-family: "Belanosima", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+#fundo{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%),url(https://wallpapercave.com/wp/wp11882497.jpg);
+    background-size: cover;
+    height: 650px;
+    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#cadastre_me{
+    color:white;
+    background-color: #000000;
+    background-image: linear-gradient(to top, rgba(196, 196, 196, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(196, 196, 196, 0.8) 100%);
+    align-items: center;
+    height: 8vh;
+
+}
+#container{
+    background-size: cover;
+    height: 650px;
+    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    flex-direction:row;
+}
