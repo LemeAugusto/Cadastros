@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" content="">
+    <link rel="icon" href="./images/batman-1-logo-png-transparent.png" type="image/x-icon">
+    <link href="./style/style.css" rel="stylesheet">
+    <title>Cadastros de Usuários</title>
+</head>
+<body>
+    <div id="fundo">
+        <div class="navegador">
+            <div class="cadastre_se">Cadastre-se</div>
+        </div>
+        <div class="navegador" id="navegador_2">
+            <div class="cadastre_se" id="ja_possui_uma_conta">Já possui uma conta? <a href="https://www.youtube.com/watch?v=0dWNMdlhYFU" id="entre_aqui">Entre aqui</a></div>
+        </div>
+        <form action="{% url'listagem_usuarios' %}" method="post">
+            <div id="container">
+                <input name="email" type="email" placeholder="E-mail" class="entradas" id="input" required>
+                <input name="senha" type="password" placeholder="Senha" class="entradas" id="password" required>
+                <input name="confirmação_de_senha" type="password" placeholder="Confirmar Senha" class="entradas" id="confirm_password" required>
+                <button id="criar_conta">Criar conta</button>
+            </div>
+        </form>
+    </div>
+    <script src="./app_cad_usuarios/app_cadastros/templates/script.js"></script>
+</body>
+</html>
